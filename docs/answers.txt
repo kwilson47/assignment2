@@ -1,0 +1,25 @@
+1. On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+2. 9 total commits found by running this command: git rev-list --all --count
+
+3. git log -1 README.md
+Date:   Fri Aug 12 22:43:29 2022 -0400
+
+4. Branches can be used to develop new features. For example, you can create a feature branch based off of the current production branch, and then do all of the necessary work in that feature branch and merge it back into the production branch when complete. Secondly, branches could be used as a way of separating different code bases in different environments. For example, you could have branches dedicated to production, user acceptance testing, internal testing, development, etc... 
+
+5. git log allows you to see a history of all past commits in the current working branch, while git status shows you what has changed since your last commit.
+
+6. git log --follow Vehicle.h
+
+7. git log --grep='file'
+
+8. i) Inheritance refers to the process of deriving new classes from base classes. For example, a Cat object could inherit the properties and methods af a more general Animal class, without having to redefine all of the things they have in common.
+  ii) Polymorphism is what allows the same method name to be invoked on objects of different class types. For example, consider a simple 2-player game between a human and a computer. Suppose there was a base class Player and two derived classes called Human and Computer. If each class implements the method takeTurn(), because of polymorphism you can simply invoke Player.takeTurn() and at run-time, the program will determine whether Player is a Human or Computer and call the appropriate method.
+  iii) Encapsulation simply refers to grouping all the logical components into one thing. For instance, a simple struct in C++ can be used to encapsulate the member data within it.
+
+9. The main difference between the two workflows is the presence of an intermediary in the Dictator and Lieutenants workflow. That flow takes a divide and conquer approach and delegates the task of resolving merge conflicts with multiple Lieutenants, while the Integration Manager in the Integration Manager workflow is solely responsible for resolving such conflicts. 
+
+10. In the Centralized workflow, each developer is responsible for resolving merge conflicts. This means 100 developers are spending their time resolving merge conflicts, while in the Dictator and Lieutenants workflow, that task is delegated to a smaller group of individuals. In a team of 100 developers, this flow would free up many of those developers so they wouldn't have to worry about performing that particular task.     
