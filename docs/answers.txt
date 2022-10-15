@@ -1,3 +1,7 @@
+I went through the Git Lab Tutorials on August 12
+I setup my GitHub account around June 1, 2021.
+The GitHub Repository for this assignment is here: https://github.com/kwilson47/assignment2.git
+
 1. On branch master
 Your branch is up to date with 'origin/master'.
 
